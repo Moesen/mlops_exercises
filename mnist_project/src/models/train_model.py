@@ -4,14 +4,14 @@ from pathlib import Path
 
 import click
 import matplotlib.pyplot as plt
-import numpy as np
 import seaborn as sns
 import torch
 from dotenv import find_dotenv, load_dotenv
 from architecture import AwesomeModel
 from torch import nn, optim
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import DataLoader
 from tqdm import trange
+from dataset import CorruptMNISTDataset
 
 # Beutification of plots
 sns.set(
@@ -38,24 +38,6 @@ sns.set(
         "ytick.right": False,
     },
 )
-
-
-class CorruptMNISTDataset(Dataset):
-    def __init__(self, file_path: str, train=True):
-        file = torch.load(file_path)
-        if train:
-            self.x = file["train_x"]
-            self.Y = file["train_Y"]
-        else:
-            self.x = file["test_x"]
-            self.Y = file["test_Y"]
-
-    def __len__(self):
-        return len(self.Y)
-
-    def __getitem__(self, idx):
-        return self.x[idx], self.Y[idx]
-
 
 @click.command()
 @click.argument("train_file", type=click.Path(exists=True))
