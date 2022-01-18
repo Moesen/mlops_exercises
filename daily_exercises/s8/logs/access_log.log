@@ -1,0 +1,4 @@
+2022-01-17 18:01:59,731 - /127.0.0.1:58204 "PUT /predictions/my_fancy_model HTTP/1.1" 200 205
+2022-01-17 18:02:07,797 - /127.0.0.1:58206 "PUT /predictions/my_fancy_model HTTP/1.1" 200 181
+2022-01-17 18:04:20,150 - /127.0.0.1:58220 "PUT /predictions/my_fancy_model HTTP/1.1" 200 206
+2022-01-17 18:05:16,928 - /127.0.0.1:58256 "PUT /predictions/my_fancy_model HTTP/1.1" 200 234

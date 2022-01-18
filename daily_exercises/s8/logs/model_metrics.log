@@ -1,0 +1,4 @@
+2022-01-17 18:01:59,728 - PredictionTime.Milliseconds:196.35|#ModelName:my_fancy_model,Level:Model|#hostname:SnoozeUbuntu,requestID:6887b83b-67af-450c-aceb-2d86fd7d162a,timestamp:1642438919
+2022-01-17 18:02:07,796 - PredictionTime.Milliseconds:178.1|#ModelName:my_fancy_model,Level:Model|#hostname:SnoozeUbuntu,requestID:e2fe7990-773f-41bc-94bf-a9131b3eae85,timestamp:1642438927
+2022-01-17 18:04:20,149 - PredictionTime.Milliseconds:202.45|#ModelName:my_fancy_model,Level:Model|#hostname:SnoozeUbuntu,requestID:e5110917-fdbe-4d7f-b613-a95fec50cd38,timestamp:1642439060
+2022-01-17 18:05:16,928 - PredictionTime.Milliseconds:222.04|#ModelName:my_fancy_model,Level:Model|#hostname:SnoozeUbuntu,requestID:9ff85e47-88e8-4837-b520-6d4b9f562903,timestamp:1642439116
