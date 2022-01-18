@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.11.0-40-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-18T16:39:26.954589",
+    "startedAt": "2022-01-18T16:39:25.928494",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "vae_mnist_working.py",
+    "codePath": "daily_exercises/s4/vae_mnist_working.py",
+    "git": {
+        "remote": "git@github.com:Moesen/mlops_exercises.git",
+        "commit": "142d241db853350a25d446a77249491968340c88"
+    },
+    "email": "gustavmoesmand@gmail.com\\n",
+    "root": "/home/snoooze/Git/mlops_exercises",
+    "host": "SnoozeUbuntu",
+    "username": "snoooze",
+    "executable": "/home/snoooze/anaconda3/envs/pokemon/bin/python"
+}
