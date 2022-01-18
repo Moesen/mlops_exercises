@@ -1,5 +1,5 @@
-import torchvision.models as models
 import torch
+import torchvision.models as models
 
 if __name__ == "__main__":
     resnet = models.resnet18(pretrained=True)

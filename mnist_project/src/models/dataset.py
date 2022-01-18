@@ -1,5 +1,6 @@
-from torch.utils.data import Dataset
 import torch
+from torch.utils.data import Dataset
+
 
 class CorruptMNISTDataset(Dataset):
     def __init__(self, file_path: str, train=True):

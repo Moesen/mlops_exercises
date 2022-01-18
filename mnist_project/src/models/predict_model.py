@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import torch
-from dotenv import find_dotenv, load_dotenv
 from architecture import AwesomeModel
+from dotenv import find_dotenv, load_dotenv
 
 
 @click.command()

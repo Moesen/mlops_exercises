@@ -6,12 +6,12 @@ import click
 import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
-from dotenv import find_dotenv, load_dotenv
 from architecture import AwesomeModel
+from dataset import CorruptMNISTDataset
+from dotenv import find_dotenv, load_dotenv
 from torch import nn, optim
 from torch.utils.data import DataLoader
 from tqdm import trange
-from dataset import CorruptMNISTDataset
 
 # Beutification of plots
 sns.set(
@@ -38,6 +38,7 @@ sns.set(
         "ytick.right": False,
     },
 )
+
 
 @click.command()
 @click.argument("train_file", type=click.Path(exists=True))
@@ -116,7 +117,7 @@ def main(train_file, model_filename, lr, ep, dp, bs):
     model_path = os.path.join(
         Path(__file__).resolve().parents[2], "models", model_filename
     )
-    
+
     AwesomeModel.save_checkpoint(model, model_path)
 
     # Creating visualization of losses and stores them in reports

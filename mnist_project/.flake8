@@ -1,4 +1,0 @@
-[flake8]
-excluce = venv
-ignore = W503 # 503: LIne break occured before binary operator
-max-line-length = 100
