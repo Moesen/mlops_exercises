@@ -1,2 +1,5 @@
 dvc
 dvc[gdrive]
+black
+flake8
+isort
